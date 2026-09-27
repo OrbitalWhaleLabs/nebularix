@@ -21,7 +21,7 @@ Download the latest version directly:
 
 | System | Download |
 |--------|----------|
-| macOS | [Nebularix_latest_universal.dmg](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_universal.dmg) — one disk image for Apple Silicon and Intel Macs, macOS 10.15 or later |
+| macOS | [Nebularix_latest_universal.dmg](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_universal.dmg) — one disk image for Apple Silicon and Intel Macs, macOS 13.3 (Ventura) or later |
 | Windows | [Nebularix_latest_x64-setup.exe](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_x64-setup.exe) — 64-bit installer |
 | Linux | [AppImage](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_amd64.AppImage) — any distribution with glibc 2.39 or later (e.g. Ubuntu 24.04+, Fedora 40+), HEIC support built in |
 | | [.deb](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_amd64.deb) — Ubuntu 24.04+ / Debian 13+ |
