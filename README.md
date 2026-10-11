@@ -23,7 +23,7 @@ Download the latest version directly:
 |--------|----------|
 | macOS | [Nebularix_latest_universal.dmg](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_universal.dmg) — one disk image for Apple Silicon and Intel Macs, macOS 13.3 (Ventura) or later |
 | Windows | [Nebularix_latest_x64-setup.exe](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_x64-setup.exe) — 64-bit installer |
-| Linux | [AppImage](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_amd64.AppImage) — any distribution with glibc 2.39 or later (e.g. Ubuntu 24.04+, Fedora 40+), HEIC support built in |
+| Linux | [AppImage](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_amd64.AppImage) — any distribution with glibc 2.39 or later (e.g. Ubuntu 24.04+, Fedora 40+), HEIC support built in. After downloading, make it executable once — in the file's Properties, or with `chmod +x Nebularix_latest_amd64.AppImage` — then double-click to run |
 | | [.deb](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_amd64.deb) — Ubuntu 24.04+ / Debian 13+ |
 | | [.rpm](https://dl.orbitalwhale.com/nebularix/latest/Nebularix-latest-1.x86_64.rpm) — Fedora / EPEL 10. Opening HEIC photos needs an HEVC decoder Fedora doesn't ship: install `libheif-freeworld` from RPM Fusion, or use the AppImage |
 
