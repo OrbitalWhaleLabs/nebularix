@@ -25,9 +25,14 @@ Download the latest version directly:
 | Windows | [Nebularix_latest_x64-setup.exe](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_x64-setup.exe) — 64-bit installer |
 | Linux | [AppImage](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_amd64.AppImage) — any distribution with glibc 2.39 or later (e.g. Ubuntu 24.04+, Fedora 40+), HEIC support built in. After downloading, make it executable once — in the file's Properties, or with `chmod +x Nebularix_latest_amd64.AppImage` — then double-click to run |
 | | [.deb](https://dl.orbitalwhale.com/nebularix/latest/Nebularix_latest_amd64.deb) — Ubuntu 24.04+ / Debian 13+ |
-| | [.rpm](https://dl.orbitalwhale.com/nebularix/latest/Nebularix-latest-1.x86_64.rpm) — Fedora / EPEL 10. Opening HEIC photos needs an HEVC decoder Fedora doesn't ship: install `libheif-freeworld` from RPM Fusion, or use the AppImage |
+| | [.rpm](https://dl.orbitalwhale.com/nebularix/latest/Nebularix-latest-1.x86_64.rpm) — Fedora, or RHEL 10 / Rocky / Alma **with EPEL enabled** (the base repositories have neither webkit2gtk4.1 nor libheif). Rocky/Alma: `sudo dnf install epel-release`; RHEL: `sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm`, see the [EPEL guide](https://docs.fedoraproject.org/en-US/epel/getting-started/). HEIC needs an HEVC decoder the distribution repositories don't ship; the app shows the exact RPM Fusion command for your system. Or use the AppImage, which bundles the decoder |
 
-The macOS disk image is signed and notarized by Apple, and the Windows installer is code-signed.
+The macOS disk image is signed and notarized by Apple, the Windows installer is code-signed, and the Linux packages are GPG-signed: the signature is inside the `.rpm`, the `.deb` and the AppImage have a detached `.asc` file next to them, and the public key `orbitalwhale-packages.asc` is published beside every release's files. `dnf install ./file.rpm` does not check the signature on its own — import the key once and verify before installing:
+
+```sh
+sudo rpm --import https://dl.orbitalwhale.com/nebularix/latest/orbitalwhale-packages.asc
+rpm -K Nebularix-latest-1.x86_64.rpm        # expect: digests signatures OK
+```
 
 Release notes for every version, with links to that version's installers, are on the [Releases](https://github.com/OrbitalWhaleLabs/nebularix/releases) page. Installers are hosted on dl.orbitalwhale.com, not attached to GitHub releases.
 
