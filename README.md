@@ -76,7 +76,6 @@ Nebularix is useful when you regularly prepare the same photos for several desti
 - **Archive exports** — preserve originals, metadata, and color information where possible.
 - **Metadata control** — preserve metadata, remove everything, strip GPS, or keep copyright data.
 - **Color profile handling** — preserve profiles or convert to sRGB for web use.
-- **Watermarks** — image or text watermarks with position, opacity, and shadow settings.
 - **Watch folders** — automatically process new images dropped into selected folders.
 - **Queue controls** — pause, resume, cancel, retry, and track progress.
 - **Desktop app** — runs locally on your computer.
@@ -103,7 +102,7 @@ Demo mode:
 
 - processes up to 30 files per batch
 - keeps exported images clean, without adding a trial watermark
-- limits full-version features such as automated watch folders and custom watermarks
+- leaves automated watch folders to the full version
 
 The full version is a **one-time purchase** — no subscription, no account required.
 
