@@ -67,7 +67,7 @@ Nebularix is useful when you regularly prepare the same photos for several desti
 - **Batch export** — process many photos at once.
 - **Export Packs** — ready-made presets for common workflows.
 - **Multiple variants per photo** — one source image can produce several outputs.
-- **Wide input format support** — JPEG, PNG, TIFF, WebP, AVIF, and HEIF source images.
+- **Wide input format support** — JPEG, PNG, TIFF, WebP, and HEIF/HEIC source images.
 - **JPEG, PNG, WebP, and AVIF output** — choose the right format for each destination.
 - **Social media sizes** — Instagram, Facebook, X/Twitter, LinkedIn, Pinterest, and more.
 - **Client delivery presets** — full-size, web-size, and preview exports.
